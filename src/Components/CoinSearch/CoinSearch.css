@@ -1,0 +1,62 @@
+.coinSearchContainer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.coinText {
+    color: white;
+    margin-right: 32px;
+}
+
+.coinSearch {
+    display: flex;
+    align-items: center;
+}
+
+.coinInput {
+    font-size: 1.3rem;
+    padding: 2px !important;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .coinText {
+        font-size: 1.6rem;
+    }
+
+    .coinInput {
+        font-size: 1rem;
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .coinText {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .coinText {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .coinSearch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coinInput {
+        width: 60vw;
+        margin-top: 10px;
+        justify-content: center;
+    }
+}
