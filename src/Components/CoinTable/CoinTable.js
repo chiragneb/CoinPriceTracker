@@ -34,9 +34,9 @@ const CoinTable = () => {
                     <th>Coin</th>
                     <th>Name</th>
                     <th>Ticker</th>
-                    <th>Price (USD)</th>
-                    <th>Market Cap Rank</th>
+                    <th>Price (USD)</th>    
                     <th>Price Change Percentage</th>
+                    <th>Market Cap Rank</th>
                     <th>Market Cap (USD)</th>
                     <th>Volume (USD)</th>
                     </tr>
@@ -49,8 +49,8 @@ const CoinTable = () => {
                       image = {coin.image}
                       symbol = {coin.symbol}
                       price = {coin.current_price}
-                      volume = {coin.total_volume}
                       priceChange = {coin.price_change_percentage_24h}
+                      volume = {coin.total_volume}
                       marketCap = {coin.market_cap}
                       marketCapRank = {coin.market_cap_rank}
                       />;
