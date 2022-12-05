@@ -23,7 +23,8 @@ const CoinTable = () => {
       }, []);
 
         const filteredCoins = coins.filter(coin => 
-            coin.name.toLowerCase().includes(passedCoinName.toLowerCase())
+            coin.name.toLowerCase().includes(passedCoinName.toLowerCase()) || 
+            coin.symbol.toLowerCase().includes(passedCoinName.toLowerCase())
             );
 
             return (

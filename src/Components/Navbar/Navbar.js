@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <div className="appHeader">
-                <h2>Cryptocurrency Price Tracker 💰</h2>
+                <h2>Cryptocurrency Price Tracker 💰💸 (TOP 100)</h2>
             </div>
         </>
     );
