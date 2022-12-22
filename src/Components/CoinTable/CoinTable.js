@@ -40,6 +40,7 @@ const CoinTable = () => {
                     <th>Market Cap Rank</th>
                     <th>Market Cap (USD)</th>
                     <th>Volume (USD)</th>
+                    <th>All time High (USD)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -54,6 +55,7 @@ const CoinTable = () => {
                       volume = {coin.total_volume}
                       marketCap = {coin.market_cap}
                       marketCapRank = {coin.market_cap_rank}
+                      Ath = {coin.ath}
                       />;
                     })}
                     </tbody>
